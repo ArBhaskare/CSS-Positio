@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        #p {
+            width: 600px;
+            height: 600px;
+           
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .common {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .blu {
+            background: blue;
+            border-bottom-left-radius:300px ;
+            border-top-right-radius:300px ;
+            bottom: 0px;
+            right: 0px;
+        }
+        .green{
+            background: green;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+         top: 0px;
+         right: 0px;
+        }
+        .yello{
+            background: yellow;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+           bottom: 0px;
+           left: 0px;
+        }
+        .levender{
+            background: pink;
+            border-bottom-left-radius:300px ;
+            border-top-right-radius:300px ;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="p">
+        <div class="common c1 blu"></div>
+        <div class="common c2 green"></div>
+        <div class="common c3 yello"></div>
+        <div class="common c4 levender"></div>
+    </div>
+</body>
+
+</html>
